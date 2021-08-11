@@ -5,10 +5,8 @@
 # 20210606
 
 # Patrick Chung
-# ppchung@uci.edu
+# ppchung2018@hotmail.com
 # 562-480-2114
-# adding a note to change in this program for the git
-# adding more!
 
 '''
  ____   _           _  _                  ______  _
