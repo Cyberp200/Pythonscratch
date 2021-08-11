@@ -20,7 +20,8 @@
   \____/| |
         |_|
 
-In Atom IDE with "atom-python-run" package installed, press F5 to run.
+In Win Atom IDE with "atom-python-run" package installed, press F5 to run.
+In Mac Atom IDE with "scripts" package installed, press cmd+i to run.
 '''
 
 # --- main ---
