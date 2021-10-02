@@ -2,7 +2,7 @@
 
 # Console print and console input
 
-# 20210606
+# 20211002
 
 # Patrick Chung
 # ppchung2018@hotmail.com
@@ -19,7 +19,15 @@
 In Win Atom IDE with "atom-python-run" package installed, press F5 to run.
 In Mac Atom IDE with "scripts" package installed, press cmd+i to run.
 '''
-#testing homebrew git with this additonal line of codeadsfasdfasdasdfasdfasdf
+# Imports
+
+import sys
+import math
+import random
+import threading
+import time
+from functools import reduce
+
 # --- main ---
 
 print("Hello World")
