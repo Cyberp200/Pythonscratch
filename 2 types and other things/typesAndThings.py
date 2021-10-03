@@ -22,8 +22,16 @@
   \____/| |
         |_|
 
-In Atom IDE with "atom-python-run" package installed, press F5 to run.
 '''
+
+# Imports
+
+import sys
+import math
+import random
+import threading
+import time
+from functools import reduce
 
 # --- main ---
 

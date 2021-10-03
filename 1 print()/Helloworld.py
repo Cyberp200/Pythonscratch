@@ -43,4 +43,3 @@ print("hi", name)
 # print() second parameter is displaying
 
 #end = input("Press Enter to continue")
-# uncomment line 34 if not running in IDE
