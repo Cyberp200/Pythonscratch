@@ -48,3 +48,9 @@ print("EXAMPLE\n")
 
 print("does print() automatically create a newline?")
 print("lets find out")
+
+print("\nso apparently it does, so how do we get it to print without newline?")
+
+print("here is one line", end = "")
+print("here is another\n\napparently python3 print() needs an additional argument to make it not newline.")
+print(" what must be typed is this print(\"here is a line\", end = \"\")\n like wtf.")
