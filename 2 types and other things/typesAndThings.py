@@ -119,7 +119,6 @@ sys.maxsize
     - must "import sys" to use this function
 '''
 
-import sys
 print("13. int max size", sys.maxsize)
 
 print("14. float max size", sys.float_info.max)
