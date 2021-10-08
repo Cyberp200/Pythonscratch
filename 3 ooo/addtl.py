@@ -57,3 +57,23 @@ print(" what must be typed is this print(\"here is a line\", end = \"\")\n like 
 
 print("\nEXAMPLE of sep=\'\'\n")
 print(1,2,3,4,sep=",")
+
+print("\n%04d %s %.2f %c" % (1, "Derek", 1.234, 'A'), end = '\n\n')
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%s."
+
+print(format_string % data, end = '\n\n')
+
+
+# Here are some basic argument specifiers you should know:
+
+# %s - String (or any object with a string representation, like numbers)
+
+# %d - Integers
+
+# %f - Floating point numbers
+
+# %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+
+# %x/%X - Integers in hex representation (lowercase/uppercase)

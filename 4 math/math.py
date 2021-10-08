@@ -28,4 +28,6 @@ import time
 from functools import reduce
 
 # DEBUG TITLE
-print("\n\naddtl.py\n.\n.\n.\n.\n\n")
+print("\n\nmath.py\n.\n.\n.\n.\n\n")
+
+print("MATH STUFF\n")
