@@ -30,6 +30,9 @@ from functools import reduce
 # DEBUG TITLE
 print("\n\ncond.py\n.\n.\n.\n.\n\n")
 
+
+# IF STATEMENT
+
 x = int(input("Type some fucking number"))
 
 if x > 21:
@@ -52,4 +55,40 @@ else:
 
 Python3 must use tabs and nextlines in this exact
 configuration for conditionals to function properly.
+
+else if is elif
 '''
+
+# BOOLEAN OPERATORS AND VALUES
+
+# the operators that we can use are
+#   and
+#   or
+#   not
+
+x = int(input("Type some other fucking number"))
+
+if x < 5:
+    print("x is less than 5")
+elif (x >= 5) and (x <= 6):
+    print("x greater or equal to 5 and also less than or equal to 6")
+else:
+    print("fuck.... again.....")
+
+
+# and is used as such,
+
+
+# TERNARY OPERATOR
+
+# Allows for variable assigment using boolean operators
+
+# https://www.geeksforgeeks.org/ternary-operator-in-python/
+a, b = 10, 20
+
+canVote  = a if a >= b else b
+
+print("\n", canVote)
+
+
+#
