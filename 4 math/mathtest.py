@@ -28,7 +28,7 @@ import time
 from functools import reduce
 
 # DEBUG TITLE
-print("\n\nmath.py\n.\n.\n.\n.\n\n")
+print("\n\nmathtest.py\n.\n.\n.\n.\n\n")
 
 print("MATH STUFF\n")
 print("5 + 2 =", 5+2)
@@ -70,3 +70,11 @@ print("atanh(0) ", math.atanh(0))
 print("hypot(0) ", math.hypot(10, 10))  # sqrt(x*x + y*y)
 print("radians(0) ", math.radians(0))
 print("degrees(pi) ", math.degrees(math.pi))
+
+ranNum = random.randint(1,101)
+
+print(ranNum, "is a random number", end = '\n\n')
+
+print("Is math.inf greater than zero", math.inf > 0)
+
+print("\nWhat is math.inf minus math.inf. It is", math.inf - math.inf, "That means not a number")
