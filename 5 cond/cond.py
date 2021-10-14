@@ -33,7 +33,7 @@ print("\n\ncond.py\n.\n.\n.\n.\n\n")
 
 # IF STATEMENT
 
-x = int(input("Type some fucking number"))
+x = int(input("Type some fucking number -- "))
 
 if x > 21:
     print("x is greater than 21")
@@ -66,12 +66,14 @@ else if is elif
 #   or
 #   not
 
-x = int(input("Type some other fucking number"))
+x = int(input("Type some other fucking number -- "))
 
 if x < 5:
     print("x is less than 5")
 elif (x >= 5) and (x <= 6):
     print("x greater or equal to 5 and also less than or equal to 6")
+elif (x == 69):
+    print("How many days till Christmas?", x)
 else:
     print("fuck.... again.....")
 
@@ -84,11 +86,12 @@ else:
 # Allows for variable assigment using boolean operators
 
 # https://www.geeksforgeeks.org/ternary-operator-in-python/
+#
 a, b = 10, 20
 
 canVote  = a if a >= b else b
 
-print("\n", canVote)
+print("\n\nThis is the ternary operator, using boolean logic to assign variables, the number that got assigned is", canVote)
 
 
-#
+print("\n\n\n\n\n\n\n")
