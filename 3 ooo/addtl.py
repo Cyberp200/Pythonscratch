@@ -44,7 +44,7 @@ str1 = "Escape Sequences \' \" \t \\ \n"
 
 #Practice zone
 
-print("EXAMPLE\n")
+print("EXA\vMPLE\n")
 
 print("does print() automatically create a newline?")
 print("lets find out")
