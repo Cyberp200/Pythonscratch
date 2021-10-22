@@ -42,6 +42,16 @@ print("i1 ", i1)
 
 print('')
 
+# Math OPERATORS
+
+print("5 + 2 =", 5 + 2)
+print("5 - 2 =", 5 - 2)
+print("5 * 2 =", 5 * 2)
+print("5 / 2 =", 5 / 2)
+print("5 % 2 =", 5 % 2)
+print("5 ** 2 =", 5 ** 2)
+print("5 // 2 =", 5 // 2)
+
 # Math Functions
 print("abs(-1) ", abs(-1))
 print("max(5, 4) ", max(5, 4))
