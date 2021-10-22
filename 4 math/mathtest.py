@@ -44,13 +44,13 @@ print('')
 
 # Math OPERATORS
 
-print("5 + 2 =", 5 + 2)
-print("5 - 2 =", 5 - 2)
-print("5 * 2 =", 5 * 2)
-print("5 / 2 =", 5 / 2)
-print("5 % 2 =", 5 % 2)
-print("5 ** 2 =", 5 ** 2)
-print("5 // 2 =", 5 // 2)
+print("5 + 2 =", 5 + 2, " addition")
+print("5 - 2 =", 5 - 2, " subtraction")
+print("5 * 2 =", 5 * 2, " multiplication")
+print("5 / 2 =", 5 / 2, " division")
+print("5 % 2 =", 5 % 2, " modulus, returns remainder only")
+print("5 ** 2 =", 5 ** 2, " exponent")
+print("5 // 2 =", 5 // 2, " integer division, no remainder")
 
 # Math Functions
 print("abs(-1) ", abs(-1))
