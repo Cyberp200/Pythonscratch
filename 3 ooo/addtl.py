@@ -66,7 +66,7 @@ format_string = "Hello %s %s. Your current balance is $%s."
 print(format_string % data, end = '\n\n')
 
 
-# Here are some basic argument specifiers you should know:
+# Here are some basic string argument specifiers you should know:
 
 # %s - String (or any object with a string representation, like numbers)
 
