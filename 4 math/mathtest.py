@@ -50,7 +50,7 @@ print("5 * 2 =", 5 * 2, " multiplication")
 print("5 / 2 =", 5 / 2, " division")
 print("5 % 2 =", 5 % 2, " modulus, returns remainder only")
 print("5 ** 2 =", 5 ** 2, " exponent")
-print("5 // 2 =", 5 // 2, " integer division, no remainder")
+print("5 // 2 =", 5 // 2, " integer division, no remainder\n\n\n")
 
 # Math Functions
 print("abs(-1) ", abs(-1))

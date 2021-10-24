@@ -119,3 +119,27 @@ print("Up to but not include the 5th index")
 #   get a range of characters displayed
 print('getting only every other character, use stringEx[0:-1:2] ->', stringEx[0:-1:2])
 print("the 0 and the -1 is the range, and the 2 is the increment in which to skip up to")
+
+# Replacing index VALUES
+print("\nUsing the (string var name).replace(\"(string segment)\",\"(new string segment)\") function\n")
+
+stringEx = stringEx.replace("Hello", "Goodbye")
+print(stringEx, "\n")
+
+stringEx = stringEx.replace("Good", "Bad")
+print(stringEx, "\n")
+
+stringEx = stringEx.replace("e f", "E Fffffff")
+print(stringEx, "\n")
+
+# Snip Strings with concats and indexing
+
+print("Snip and concatenate strings with fancy indexing.")
+print("stringEx = stringEx[:1] + \"y\" + stringEx[0:]\n")
+
+
+stringEx = stringEx[:1] + "y" + stringEx[0:]
+print(stringEx, "\n")
+
+#   [:1] is everything up to the 2nd index [1] and [0:] is everything after the
+#   first index
