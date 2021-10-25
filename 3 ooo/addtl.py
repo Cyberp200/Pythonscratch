@@ -148,4 +148,18 @@ print(stringEx, "\n")
 
 print("\nCHECK TO SEE IF A CERTAIN STRING SEGMENT EXISTS IN EXISTING STRING")
 print("\nIs there \"By\" in stringEx", "By" in stringEx)
-print("That statement will either return True or False")
+print("That statement will either return True or False\n\n")
+
+print("\nIs there \"You\" in stringEx", "You" in stringEx)
+print("\n")
+
+print("\nIs there \"By\" not in stringEx", "By" not in stringEx)
+print("\n")
+
+# OTHER WAY TO CHECK segment
+
+print("stringEx = \"Hello Garbage\"\n\nAnother way to find indexes of strings segments\n")
+stringEx = "Hello Garbage"
+
+print("Hello index", stringEx.find("Hello"), end='\n\n')
+print("Garbage index", stringEx.find("Garbage"), end='\n\n')
