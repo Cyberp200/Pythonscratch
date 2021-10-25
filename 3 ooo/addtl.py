@@ -143,3 +143,9 @@ print(stringEx, "\n")
 
 #   [:1] is everything up to the 2nd index [1] and [0:] is everything after the
 #   first index
+
+# STRING SEGMENT CHECKS
+
+print("\nCHECK TO SEE IF A CERTAIN STRING SEGMENT EXISTS IN EXISTING STRING")
+print("\nIs there \"By\" in stringEx", "By" in stringEx)
+print("That statement will either return True or False")
