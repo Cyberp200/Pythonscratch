@@ -2,7 +2,7 @@
 
 # named as addtl.py due to being tbd content
 
-# 20211006
+# 20211025
 
 # Patrick Chung
 # cyberp200@rocketmail.com
@@ -197,3 +197,16 @@ print("Convert uppercase to lower case an visa versa with \"A STrinG\".lower() o
 print("OG string is \"A STrinG\"")
 print("A STrinG".lower())
 print("A STrinG".upper())
+
+# Check if string is either a character or a numbers
+print("Functions for check for numbers or characters")
+
+print("\"AString123\".isalnum() -> ","AString123".isalnum())
+#   is it all numbers and alphabetical chars?
+print("\"AString123\".isalpha() -> ","AString123".isalpha())
+#   is it just alphabetical chars?
+
+print("\"123\".isdigit() -> ","123".isdigit())
+#   is it all numbers and alphabetical chars?
+print("\"String\".isalpha() -> ","AString".isalpha())
+# Interstingly, spaces and puncuation make this return false
