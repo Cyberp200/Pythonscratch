@@ -163,3 +163,37 @@ stringEx = "Hello Garbage"
 
 print("Hello index", stringEx.find("Hello"), end='\n\n')
 print("Garbage index", stringEx.find("Garbage"), end='\n\n')
+
+# Trim White Space
+
+print("          This string has stripped white space.         ".strip())
+
+# Convert List to a string
+
+print(" ".join(["some", "words"]))
+#   takes the space from the " ".join and separates list items in the string
+
+# Convert String to a List
+print("A string".split(" "))
+#   takes a strings and uses the space in the .split(" ") to separate the string into list items
+
+
+# and f string for formatted output
+print("f string for formatted output")
+print("int1 = 1\nint2 = 2")
+int1 = 1
+int2 = 2
+print('print(f\"{int1} + {int2} = {int1 + int2}\")')
+print(f"{int1} + {int2} = {int1 + int2}")
+
+# Convert Uppercase to lowercase and visa versa
+print("Convert uppercase to lower case an visa versa with \"A STrinG\".lower() or \"A STrinG\".upper()")
+print("OG string is \"A STrinG\"")
+print("A STrinG".lower())
+print("A STrinG".upper())
+
+# Convert Uppercase to lowercase and visa versa
+print("Convert uppercase to lower case an visa versa with \"A STrinG\".lower() or \"A STrinG\".upper()")
+print("OG string is \"A STrinG\"")
+print("A STrinG".lower())
+print("A STrinG".upper())
