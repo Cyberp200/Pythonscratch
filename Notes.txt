@@ -4,3 +4,5 @@ Derek Banas Python Tutorial 2021
 - If statements
 25:14
 - Strings
+32:02
+- Lists
