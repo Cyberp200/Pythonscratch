@@ -1,0 +1,4 @@
+Derek Banas Python Tutorial 2021
+
+21:30
+- If statements
