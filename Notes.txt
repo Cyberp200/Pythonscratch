@@ -6,3 +6,5 @@ Derek Banas Python Tutorial 2021
 - Strings
 32:02
 - Lists
+36:04
+- Loops
