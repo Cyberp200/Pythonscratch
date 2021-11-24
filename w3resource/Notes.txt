@@ -1,0 +1,4 @@
+w3resource
+
+link:
+https://www.w3resource.com/python-exercises/python-basic-exercises.php
