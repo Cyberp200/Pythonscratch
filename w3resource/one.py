@@ -39,3 +39,10 @@ from functools import reduce
 
 # DEBUG TITLE
 print("\n\none.py\nw3resource\n.\n.\n.\n.\n\n")
+
+print("Twinkle, twinkle, little star,")
+print("\tHow I wonder what you are!")
+print("\t\tHow I wonder what you are!")
+print("\t\tLike a diamond in the sky.")
+print("Twinkle, twinkle, little star,")
+print("\tHow I wonder what you are!")
