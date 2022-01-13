@@ -32,7 +32,7 @@ from pytube import YouTube
 print("\n\nyoutubelink.py\n.\n.\n.\n.\n\n")
 
 # MAIN
-video = YouTube(https://youtu.be/Uamp8cdZed0)
+video = YouTube("https://youtu.be/Uamp8cdZed0")
 
 stream = video.streams.get_highest_resoltuion()
 
